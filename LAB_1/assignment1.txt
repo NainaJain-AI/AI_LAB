@@ -1,0 +1,6 @@
+AI202 Artificial Intelligence 
+Lab Assignment 1 
+Q1 Consider a map given in image. 
+Implement Breadth First Search(BFS) and Depth First Search (DFS) algorithm to find all possible step cost between Syracuse to Chicago. 
+
+Q2 Consider a social media network as given below. Find BFS and DFS tree.
