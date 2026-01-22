@@ -1,0 +1,11 @@
+AI202 Artificial Intelligence
+
+Lab Assignment 2
+
+Q1 The following figure shows the start state and goal state for the 8-puzzle problem.
+Find the number of states explored before reaching the goal state using the BFS
+algorithm.
+
+Q2 Find the number of states explored for the DFS algorithm. Give comparison of BFS
+and DFS in terms of cost if the path cost for the state is given as depth of the search tree
+at which the state is occurring.
