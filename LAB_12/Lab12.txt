@@ -1,0 +1,45 @@
+1. A tech hub has 6 different project teams (P1 to P6) that need to meet tomorrow.
+However, there are only 3 meeting rooms available (R1,R2,R3). Some teams
+have overlapping members and therefore cannot meet at the same time.
+Constraints (Incompatibility List):
+● P1 conflicts with: P2,P3,P6
+● P2 conflicts with: P1,P3,P4
+● P3 conflicts with: P1,P2,P5
+● P4 conflicts with: P2,P6
+● P5 conflicts with: P3,P6
+● P6 conflicts with: P1,P4,P5
+Task Requirements:
+Initial State: Set the domain for every project variable to {R1,R2,R3}.
+1. Constraint Enforcement: Apply AC-3 to this constraint graph.
+2. Step-by-Step Trace: Provide a trace of the first 5 arc-reductions (e.g., "Arc
+(P1,P2) checked, no change").
+3. Consistency Check: After running AC-3, determine if the problem is
+arc-consistent.
+If we preemptively assign Team 1 to Room 1 , does AC-3 detect a failure, or does it
+leave a valid set of domains for the remaining rooms?
+3. You are provided with a Sudoku puzzle classified as "Hard." Standard arc
+consistency often fails to solve such puzzles entirely but can significantly "thin out" the
+possibilities. Your task is to implement the AC-3 algorithm to see how much of the
+search space can be pruned before a human (or a backtracking algorithm) would need
+to start guessing.
+Input Data: The following 81-character string representing the grid (0 denotes an empty
+cell):
+0 0 0 0 0 6 0 0 0
+0 5 9 0 0 0 0 0 8
+2 0 0 0 0 8 0 0 0
+0 4 5 0 0 0 0 0 0
+
+0 0 3 0 0 0 0 0 0
+0 0 6 0 0 3 0 5 0
+0 0 0 0 0 7 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 5 0 0 0 2
+Task Requirements:
+1. Arc Generation: Automatically generate all 810+ binary constraints (arcs) based
+on Sudoku rules.
+2. State Tracking: Output the number of values removed from all domains
+combined after the AC-3 algorithm terminates.
+3. Visualization: Print the grid showing the remaining domain size for each cell
+(e.g., a "1" if solved, or "3" if three possibilities remain).
+Key Question: Does AC-3 reduce any domain to zero (proving the puzzle unsolvable)
+or reduce all domains to one (solving it completely)?
