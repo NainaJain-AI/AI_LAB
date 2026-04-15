@@ -1,0 +1,4 @@
+1. Implement the Min-Max algorithm to solve a simple two-player Tic-Tac-Toe evaluate its
+performance, and visualize the search tree.
+2. Extend Lab 1 with Alpha-Beta pruning, compare efficiency gains, and analyze pruning
+patterns on varied game trees.
