@@ -1,0 +1,19 @@
+1. The union government is planning to set up 3 new airports in the district of Surat due to
+the newly built IT Infrastructure, economic corridors, and diamond hub. You are an
+official in the Airport Authority of India. You are tasked to find 3 locations that are suitable
+for the airports. While choosing the locations, you have to keep in mind that the sum of
+squares of the distances from nearest airports should be minimum for all
+cities/towns/villages in Surat. The coordinates of the cities are given to you (you will get
+a file named cities.csv). You need to use the techniques below to complete your task that
+satisfies the mentioned criteria.
+a. Using First Order Derivatives/Gradients (Gradient Descent Method)
+b. Using Second Order Derivatives/Hessian (Newton Raphson Method)
+Compare the two techniques by finding the sum of squared distances of each
+cluster/airport.
+2. You are building a vacuum cleaning agent that can clean the floor tiles. You are given a
+simple setting of cleaning two tiles A and B where each percept contains two inputs of
+the location and state of the tile. But the agent goes erratic in the following ways:
+a. When applied to a dirty square the action cleans the square and sometimes
+cleans up dirt in an adjacent square, too.
+b. When applied to a clean square the action sometimes deposits dirt on the carpet.
+Design this erratic agent with AND-OR graph search algorithm.
