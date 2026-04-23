@@ -1,0 +1,53 @@
+1. Write a program to solve the questions using Forward Chaining.
+a. Knowledge Base:
+P → Q
+L ∧ M → P
+A ∧ B → L
+A
+B
+M
+Conclusion:
+Q
+b. Knowledge Base:
+A → B
+B → C
+C → D
+A
+E
+D ∧ E → F
+Conclusion: F
+2. Write a program to solve the questions using Backward Chaining.
+a. Knowledge Base:
+P → Q
+R → Q
+A → P
+B → R
+A
+B
+Conclusion:
+Q
+b. Knowledge Base:
+A → B
+B ∧ C → D
+E → C
+A
+E
+Conclusion:
+D
+3. Write a program to solve the questions using the method Resolution and proof of
+refutation/contradiction.
+
+a. Knowledge Base:
+P ∨ Q
+P → R
+Q → S
+R → S
+Conclusion
+S
+b. Knowledge Base:
+P → Q
+Q → R
+S → ¬R
+P
+Conclusion:
+S
